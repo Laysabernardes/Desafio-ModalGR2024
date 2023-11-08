@@ -1,5 +1,7 @@
 # Desafios ModalGR 2024
 
+[![Visite meu site](img/projeto.png)](https://laysabernardes.github.io/Desafio-ModalGR2024/)
+
 Este projeto foi desenvolvido como parte do processo de formação da ModalGR 2024 e consiste em três desafios que abordam diferentes aspectos de desenvolvimento e programação.
 
 ## 🌟 Desafio 1 - Criptografia de Senhas
