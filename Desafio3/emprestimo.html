@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empréstimo ModalGR</title>
+    <script src="emprestimo.js"></script>
+    <link rel="stylesheet" href="emprestimo.css">
+
+</head>
+
+<body>
+    <iframe src="../config/header.html" style="width: 100%;" frameborder="0" scrolling="no" id="meu-iframe"></iframe>
+
+    <h1 class="titulo-emprestimo">Desafio 3 - Simulação de Empréstimo: </h1>
+
+
+    <form id="emprestimoForm" class="container-formulario">
+        <div class="info">
+            <h1 class="titulo">Formulário de Empréstimo:</h1>
+
+            <label for="nome" class="campos">Nome Colaborador:</label>
+            <input class="input" type="text" id="nome" name="nome" placeholder="Nome Colaborador" required>
+
+            <label for="dataAdmissao" class="campos">Data de Admissão:</label>
+            <input class="input" type="date" id="dataAdmissao" name="dataAdmissao" required>
+
+            <label for="salarioAtual" class="campos">Salário Atual:</label>
+            <input class="input" type="number" id="salarioAtual" name="salarioAtual" required placeholder="0,00">
+
+            <label for="valorEmprestimo" class="campos">Valor do Empréstimo:</label>
+            <input class="input" type="number" id="valorEmprestimo" name="valorEmprestimo" required placeholder="0,00">
+
+            <div class="container-button">
+                <input type="submit" value="Calcular Opções de Retirada" class="button">
+            </div>
+
+            <h2>Opções de Retirada:</h2>
+            <div id="opcoesRetirada" class="container-login"></div>
+        </div>
+    </form>
+
+    <iframe src="../config/footer.html" style="width: 100%;" frameborder="0" scrolling="no" id="meu-iframe"></iframe>
+</body>
+
+</html>

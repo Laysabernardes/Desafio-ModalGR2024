@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+:root {
+    --cor-de-fundo: #d9d9d9;
+    --cor-de-destaque: #284b63;
+    --cor-de-subdestaque: #3c6e71;
+    --cor-padrao: #353535;
+    --azul-forte:  #0084b7;
+    --azul-medio: #5bb8e9;
+    --azul-claro: #91d8f7;
+    --laranja: #f48633;
+    --branco: #ffffff;
+}
+.titulo-emprestimo{
+    color: var(--cor-de-destaque);
+    margin: 5px 5px 25px 45px;
+}
+.container-formulario {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+   
+}
+
+.info {
+    width: 390px;
+    background-color: var(--cor-de-destaque);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 77px 55px 33px 55px;
+    box-shadow: 0 5px 10px 0px var(--cor-padrao);
+}
+
+.titulo {
+    display: block;
+    font-size: 30px;
+    color: var(--cor-de-fundo);
+    line-height: 1.2;
+    text-align: left;
+    padding-bottom: 10%;
+}
+
+.campos{
+    color: var(--branco);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input{
+    margin:5px 0px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--cor-de-fundo);
+    border-radius: 4px;
+}
+
+.button {
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105%;
+    height: 50px;
+    margin: 10% 0%;
+    background: -webkit-linear-gradient(to right,var(--azul-forte),var(--azul-claro));
+    background: -o-linear-gradient(to right, var(--azul-forte), var(--azul-claro));
+    background: -moz-linear-gradient(to right, var(--azul-forte), var(--azul-claro));
+    background: linear-gradient(to right,var(--azul-forte),var(--azul-claro));
+}
+
+h3{
+    color: var(--cor-de-fundo);
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+h1,h2,h4{
+    color: var(--cor-de-fundo);
+    margin-bottom: 5px;
+}
+li{
+    color: var(--cor-de-fundo);
+    margin-left: 15%;
+}
+
+.texto-container {
+    flex: 1; /* A segunda coluna ocupa todo o espaço restante */
+    padding: 20px;
+}
+
+
+
