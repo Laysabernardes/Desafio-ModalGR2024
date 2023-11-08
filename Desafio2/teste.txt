@@ -1,0 +1,10 @@
+João da Silva|joao@example.com|12/11/1990
+Maria Santos|maria@example.com|05/07/1985
+Carlos Pereira|carlos@example.com|18/09/1995
+Ana Souza|ana@example.com|25/05/1988
+João Carlos|joao@example.com|12/03/1967
+Laysa Bernardes|laysa@example.com|06/03/2003
+Maria Clara|maria@example.com|27/11/1990
+Joana Santos|joana@example.com|27/11/1985
+Eduardo Snatos|eduardo@example.com|30/11/1999 
+Ana Pereira|ana@example.com|25/11/1999
