@@ -34,5 +34,5 @@ A ModalGR está criando um programa de empréstimo para colaboradores com mais d
 - Escolha entre diferentes opções de retirada em dinheiro, incluindo notas de maior valor, notas de menor valor ou uma combinação de ambas.
 
 
-Este projeto foi desenvolvido por [Laysa Bernardes] como parte da formação da ModalGR 2024.
+Este projeto foi desenvolvido por Laysa Bernardes como parte da formação da ModalGR 2024.
 
