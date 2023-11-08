@@ -95,9 +95,6 @@ li{
 }
 
 .texto-container {
-    flex: 1; /* A segunda coluna ocupa todo o espaço restante */
+    flex: 1;
     padding: 20px;
 }
-
-
-
