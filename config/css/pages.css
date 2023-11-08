@@ -98,3 +98,10 @@ li{
     flex: 1;
     padding: 20px;
 }
+
+#senhaCriptografada {
+    color: var(--branco);
+    max-height: 100px; /* Defina a altura máxima que desejar para o contêiner */
+    overflow: auto; /* Adicione barras de rolagem quando o conteúdo exceder a altura máxima */
+    white-space: pre-line; /* Permite quebras de linha automáticas */
+}

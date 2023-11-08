@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia</title>
+    <script src="criptografia.js"></script>
+    <link rel="icon" href="../config/img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../config/css/pages.css">
+</head>
+
+<body>
+    <iframe src="../config/header.html" style="width: 100%;" frameborder="0" scrolling="no" id="meu-iframe"></iframe>
+
+    <h1 class="titulo-emprestimo">Desafio 1 - Simulação de Criptografia de senhas: </h1>
+
+    <div class="container-formulario">
+        <div class="info">
+            <h1 class="titulo">Digite a senha:</h1>
+
+            <label for="senha" class="campos">Senha:</label>
+            <input class="input" type="password" id="senha" placeholder="Digite a senha">
+
+            <label for="metodo" class="campos">Método de Criptografia:</label>
+            <select id="metodo">
+                <option value="metodoUm">Método 1</option>
+                <option value="metodoDois">Método 2</option>
+                <option value="metodoTres">Método 3</option>
+            </select>
+
+            <div class="container-button">
+                <button class="button" id="criptografar">Criptografar</button>
+            </div>
+
+
+            <p class="titulo">Senha Criptografada:</p>
+            <p id="senhaCriptografada"></p>
+        </div>
+    </div>
+
+    <iframe src="../config/footer.html" style="width: 100%;" frameborder="0" scrolling="no" id="meu-iframe"></iframe>
+</body>
+
+</html>
